@@ -14,4 +14,4 @@ in some .org file
 
 then C-c C-c to check, compile and run to get results
 
-note: import "core:fmt" gets included by default and code is wrapped in a main proc()
+note: wraps up code in main and imports "core:fmt" if there is no main proc() 
